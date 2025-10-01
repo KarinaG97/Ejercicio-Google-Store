@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #353A49;
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    max-height: 42px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    box-shadow: 1px 5px 10px 1px #aeabab;
+}
+
+.logo {
+    height: 28px;
+    width: 29px;
+    position: relative;
+    top: 7px;
+    left: 20px;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 12px;
+    margin-top: 14px;
+    
+}
+
